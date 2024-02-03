@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- #region Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- #endregion -->
+
+    <!-- #region Reboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- #endregion -->
+
+    <!-- #region Styles -->
+    <link rel="stylesheet" href="assets/allSettings.css" />
+    <link rel="stylesheet" href="assets/header.css" />
+    <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="assets/footer.css" />
+    <!-- #endregion -->
+
+    <title>Index</title>
+  </head>
+  <body>
+    <!-- #region Header -->
+    <header
+      class="container d-flex justify-content-between my-sm-4 my-lg-1 my-xl-3"
+    >
+      <!-- #region Left header -->
+      <section class="d-flex">
+        <!-- Menu icon -->
+        <div id="menuIcon" class="d-sm-block d-lg-block d-xl-none">
+          <img src="icons/icon.png" />
+        </div>
+
+        <!-- Text of MEGA.news -->
+        <div class="d-flex align-items-center">
+          <p class="megaNews my-auto">MEGA.news</p>
+        </div>
+
+        <!-- #region Menu -->
+        <menu
+          class="d-sm-none d-lg-none d-xl-flex align-items-center"
+          style="margin-left: 68px; gap: 20px; list-style: none"
+        >
+          <!-- Categories -->
+          <li>
+            <select class="menuItem">
+              <option>Categories</option>
+            </select>
+          </li>
+
+          <!-- Pages -->
+          <li>
+            <select class="menuItem">
+              <option>Pages</option>
+            </select>
+          </li>
+
+          <!-- Contact us -->
+          <li class="menuItem">
+            <p class="my-auto">Contact us</p>
+          </li>
+
+          <!-- About us -->
+          <li class="menuItem">
+            <p class="my-auto">About us</p>
+          </li>
+        </menu>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Right header -->
+      <section class="d-flex gap-4">
+        <!-- #region Search of div -->
+        <div class="searchDiv borderPicture d-sm-block d-lg-none d-xl-block">
+          <img src="icons/3point.png" />
+          <input
+            type="text"
+            placeholder="Search Anything"
+            style="background-color: inherit; border-style: none"
+          />
+          <img src="icons/search.png" />
+        </div>
+        <!-- #endregion -->
+        <!-- #region Profile information of div -->
+        <div class="profileInformation d-sm-none d-lg-block d-xl-block">
+          <img
+            src="images/IMG_03999 1.png"
+            alt="Profile picture"
+            class="borderPicture"
+          />
+          <select class="menuItem">
+            <option>Beyzad</option>
+          </select>
+        </div>
+
+        <div class="saveDiv borderPicture"><img src="icons/save.png" /></div>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+    </header>
+    <!-- #endregion -->
+
+    <!-- #region Search of div for tablets-->
+    <div class="searchDiv borderPicture d-sm-none d-lg-flex d-xl-none">
+      <div class="col-lg-1 d-flex justify-content-center">
+        <img src="icons/3point.png" />
+      </div>
+
+      <div class="col-lg-10">
+        <input
+          type="text"
+          placeholder="Search Anything"
+          style="background-color: inherit; border-style: none"
+        />
+      </div>
+      <div class="col-lg-1 d-flex justify-content-center">
+        <img src="icons/search.png" />
+      </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Main  -->
+
+    <main>
+      <!-- #region Slider -->
+      <section
+        class="container sliderBackgroundDiv borderPicture d-sm-none d-lg-none d-xl-flex"
+      >
+        <!-- Item of slider -->
+        <div class="sliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/food.png" class="borderPicture" />
+          <!-- Text on item of slider -->
+          <div class="textOfItem menuItem" style="color: white">#Food</div>
+        </div>
+
+        <!-- Item of slider -->
+        <div class="sliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/animal.png" class="borderPicture" />
+          <!-- Text on item of slider -->
+          <div class="textOfItem" style="color: white">#Animal</div>
+        </div>
+
+        <!-- Item of slider -->
+        <div class="sliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/car.png" class="borderPicture" />
+          <!-- Text on item of slider -->
+          <div class="textOfItem" style="color: white">#Car</div>
+        </div>
+
+        <!-- Item of slider -->
+        <div class="sliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/sport.png" class="borderPicture" />
+          <!-- Text on item of slider -->
+          <div class="textOfItem" style="color: white">#Sport</div>
+        </div>
+
+        <!-- Item of slider -->
+        <div class="sliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/music.png" class="borderPicture" />
+          <!-- Text on item of slider -->
+          <div class="textOfItem" style="color: white">#Music</div>
+        </div>
+
+        <!-- Item of slider -->
+        <div class="sliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/technology.png" class="borderPicture" />
+          <!-- Text on item of slider -->
+          <div class="textOfItem" style="color: white">#Tecnology</div>
+        </div>
+
+        <!-- Item of slider -->
+        <div class="lastSliderItem">
+          <!-- Image of item of slider -->
+          <img src="images/corusel/food.png" class="borderPicture img1" />
+          <img src="images/corusel/opacity.png" class="borderPicture img2" />
+          <!-- Text on item of slider -->
+          <img src="icons/next.png" class="img3" />
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Themes -->
+      <section class="container my-4 d-flex gap-3">
+        <!-- Item theme -->
+        <article class="itemTheme">
+          <!-- Image of theme -->
+          <img src="images/themes/car.png" alt="Car" class="borderPicture" />
+          <!-- Box of text on image -->
+          <div class="textOnImageInThemeBox borderPicture">
+            <!-- Title of text -->
+            <div class="titleOftextOnImageInThemeBox">
+              How to Drive a Car Safely
+            </div>
+            <!-- About of text -->
+            <div class="aboutOftextOnImageInThemeBox">
+              Ah, the joy of the open road—it’s a good feeling. But if you’re
+              new to driving, you may feel a little nervous about getting behind
+              the wheel. Don’t worry. While it’s true that accidents can happen
+              to anybody, there are things you can do to drive safely and do
+              your best to avoid them.
+            </div>
+          </div>
+        </article>
+
+        <!-- Item theme -->
+        <article class="itemTheme">
+          <!-- Image of theme -->
+          <img src="images/themes/music.png" alt="Car" class="borderPicture" />
+          <!-- Box of text on image -->
+          <div class="textOnImageInThemeBox borderPicture">
+            <!-- Title of text -->
+            <div class="titleOftextOnImageInThemeBox">
+              How to Make Dance Music
+            </div>
+            <!-- About of text -->
+            <div class="aboutOftextOnImageInThemeBox">
+              Download torrents from verified or trusted uploaders. If you're a
+              BitTorrent user looking for safety tips, use this method. Both of
+              the big-name BitTorrent indexers (The Pirate Bay and
+              KickAssTorrents) use symbols to highlight torrents uploaded by
+              verified users.
+            </div>
+          </div>
+        </article>
+
+        <!-- Item theme -->
+        <article class="itemTheme">
+          <!-- Image of theme -->
+          <img
+            src="images/themes/tecnology.png"
+            alt="Car"
+            class="borderPicture"
+          />
+          <!-- Box of text on image -->
+          <div class="textOnImageInThemeBox borderPicture">
+            <!-- Title of text -->
+            <div class="titleOftextOnImageInThemeBox">
+              Why I Stopped Using Multiple Monitor
+            </div>
+            <!-- About of text -->
+            <div class="aboutOftextOnImageInThemeBox">
+              A Single Monitor Manifesto — Many developers believe multiple
+              monitors improve productivity. Studies have proven it, right?
+              Well, keep in mind, many of those studies are commissioned from
+              monitor manufacturers like
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Popular posts -->
+      <section class="container my-4">
+        <!-- #region Title Of Popular Posts -->
+        <article class="d-flex justify-content-between">
+          <!-- #region Left side of Title Of Popular Posts -->
+          <div class="d-flex align-items-center">
+            <img
+              src="images/popularPosts/RedRectangle.png"
+              alt="Red Rectangle"
+            />
+            <p class="TextOftitleOfPopularPostsLeft my-auto mx-2">
+              Popular Posts
+            </p>
+          </div>
+          <!-- #endregion -->
+          <!-- #region Rght side of Title Of Popular Posts -->
+          <div class="d-flex gap-2">
+            <!-- Previous arrow -->
+            <div class="elementBox">
+              <img
+                src="images/popularPosts/Arrows/background.png"
+                alt="Background"
+              />
+              <img
+                src="images/popularPosts/Arrows/previous.png"
+                alt="Previous"
+                class="elementInCenter"
+              />
+            </div>
+            <!-- Next arrow -->
+
+            <div class="elementBox">
+              <img
+                src="images/popularPosts/Arrows/background.png"
+                alt="Background"
+              />
+              <img
+                src="images/popularPosts/Arrows/next.png"
+                alt="Next"
+                class="elementInCenter"
+              />
+            </div>
+          </div>
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Popular posts -->
+        <article
+          class="d-flex p-1 my-3 rounded gap-2"
+          style="background-color: #f5f5f5"
+        >
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/sport.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                Opening Day of Boating Season, Seattle WA
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Of course the Puget Sound is very watery, and where there is
+                water, there are boats. Today is the Grand Opening of Boating
+                Season when traffic gets stalled in the University District (UW)
+                while the Montlake Bridge
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/james.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/technology.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How to choose the right laptop for programming
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Choosing the right laptop for programming can be a tough
+                process. It’s easy to get confused while researching the various
+                options. There are many different laptop models out there, each
+                with a different set of trade-offs
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/louis.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/car.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How we built the first real self-driving car
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Electric self-driving cars will save millions of lives and
+                significantly accelerate the world’s transition to sustainable
+                energy, but only when
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/mary.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/food.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How to Persuade Your Parents to Buy Fast Food
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Parents often don’t want to buy fast food. They may be worried
+                that it’s too expensive, unhealthy, or not worth the effort and
+                time.
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/jon.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Statistics -->
+      <section
+        class="container-fluid d-flex justify-content-center align-items-center statisticsBox"
+        style="
+          height: 464px;
+          background-image: url(images/statistics/blurBackground.png);
+          background-size: 100% 100%;
+        "
+      >
+        <main
+          class="d-flex justify-content-center align-items-center gap-4"
+          style="height: 350px"
+        >
+          <!-- #region Calendar of statistics -->
+          <article
+            class="p-2 rounded"
+            style="background-color: white; height: inherit"
+          >
+            <div class="headOfTable m-2">Jan 2022</div>
+            <table class="calendarOfStatistics">
+              <tr>
+                <th class="dullTableElementColor">Su</th>
+                <th class="dullTableElementColor">Mo</th>
+                <th class="dullTableElementColor">Tu</th>
+                <th class="dullTableElementColor">We</th>
+                <th class="dullTableElementColor">Th</th>
+                <th class="dullTableElementColor">Fr</th>
+                <th class="dullTableElementColor">Sa</th>
+              </tr>
+              <tr>
+                <th class="dullTableElementColor">26</th>
+                <th class="dullTableElementColor">27</th>
+                <th>
+                  <img
+                    src="images/statistics/calendarIcons/icon1.png"
+                    alt="icon 1"
+                  />
+                </th>
+                <th class="dullTableElementColor">29</th>
+                <th class="dullTableElementColor">30</th>
+                <th class="dullTableElementColor">31</th>
+                <th class="normalTableElementColor">1</th>
+              </tr>
+              <tr>
+                <th class="normalTableElementColor">
+                  <img
+                    src="images/statistics/calendarIcons/icon2.png"
+                    alt="icon 2"
+                  />
+                </th>
+                <th class="normalTableElementColor">3</th>
+                <th class="normalTableElementColor">4</th>
+                <th class="normalTableElementColor">5</th>
+                <th class="normalTableElementColor">6</th>
+                <th class="normalTableElementColor">7</th>
+                <th class="normalTableElementColor">8</th>
+              </tr>
+              <tr>
+                <th class="normalTableElementColor">9</th>
+                <th class="normalTableElementColor">10</th>
+                <th class="normalTableElementColor">11</th>
+                <th class="normalTableElementColor">12</th>
+                <th class="normalTableElementColor">13</th>
+                <th class="normalTableElementColor">
+                  <img
+                    src="images/statistics/calendarIcons/icon3.png"
+                    alt="icon 3"
+                  />
+                </th>
+                <th class="dullTableElementColor">15</th>
+              </tr>
+              <tr>
+                <th class="normalTableElementColor">16</th>
+                <th class="normalTableElementColor">17</th>
+                <th class="normalTableElementColor">
+                  <img
+                    src="images/statistics/calendarIcons/icon4.png"
+                    alt="icon 4"
+                  />
+                </th>
+                <th class="normalTableElementColor">19</th>
+                <th class="normalTableElementColor">20</th>
+                <th class="normalTableElementColor">21</th>
+                <th class="normalTableElementColor">22</th>
+              </tr>
+              <tr>
+                <th class="normalTableElementColor">23</th>
+                <th class="normalTableElementColor">24</th>
+                <th class="normalTableElementColor">25</th>
+                <th class="normalTableElementColor">26</th>
+                <th class="normalTableElementColor">27</th>
+                <th class="normalTableElementColor">28</th>
+                <th class="normalTableElementColor">29</th>
+              </tr>
+              <tr>
+                <th class="normalTableElementColor">30</th>
+                <th class="dullTableElementColor">
+                  <img
+                    src="images/statistics/calendarIcons/icon5.png"
+                    alt="icon 5"
+                  />
+                </th>
+                <th class="dullTableElementColor">1</th>
+                <th class="dullTableElementColor">2</th>
+                <th class="dullTableElementColor">3</th>
+                <th class="dullTableElementColor">4</th>
+                <th class="dullTableElementColor">5</th>
+              </tr>
+            </table>
+          </article>
+          <!-- #endregion -->
+
+          <!-- #region List of clubs of statistics -->
+          <article
+            class="listOfClubsOfStatistics rounded p-4"
+            style="background-color: white; height: inherit"
+          >
+            <table>
+              <tr>
+                <th
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  Club
+                </th>
+                <th class="dullTableElementColor textOfTableInStatistics">
+                  GP
+                </th>
+                <th class="dullTableElementColor textOfTableInStatistics">W</th>
+                <th class="dullTableElementColor textOfTableInStatistics">D</th>
+                <th class="dullTableElementColor textOfTableInStatistics">L</th>
+                <th class="dullTableElementColor textOfTableInStatistics">F</th>
+                <th class="dullTableElementColor textOfTableInStatistics">A</th>
+                <th class="dullTableElementColor textOfTableInStatistics">
+                  GD
+                </th>
+                <th class="dullTableElementColor textOfTableInStatistics">
+                  PTS
+                </th>
+              </tr>
+              <tr>
+                <td
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="textOfTableInStatistics">2</div>
+                    <img
+                      src="images/statistics/clubIcons/icon1.png"
+                      alt="icon 1"
+                    />
+                    <div class="textOfTableInStatistics">Mancester City</div>
+                  </div>
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  38
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  29
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  6
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  3
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  99
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  26
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  73
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  93
+                </td>
+              </tr>
+              <tr style="background-color: #f5f5f5">
+                <td
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="textOfTableInStatistics">3</div>
+                    <img
+                      src="images/statistics/clubIcons/icon2.png"
+                      alt="icon 2"
+                    />
+                    <div class="textOfTableInStatistics">Liverpool</div>
+                  </div>
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  38
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  28
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  8
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  2
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  94
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  26
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  68
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  92
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="textOfTableInStatistics">3</div>
+                    <img
+                      src="images/statistics/clubIcons/icon3.png"
+                      alt="icon 3"
+                    />
+                    <div class="textOfTableInStatistics">Chealsea</div>
+                  </div>
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  38
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  21
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  11
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  6
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  76
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  33
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  43
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  74
+                </td>
+              </tr>
+              <tr style="background-color: #f5f5f5">
+                <td
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="textOfTableInStatistics">4</div>
+                    <img
+                      src="images/statistics/clubIcons/icon4.png"
+                      alt="icon 4"
+                    />
+                    <div class="textOfTableInStatistics">Tottenhem Hotspur</div>
+                  </div>
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  38
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  22
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  5
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  11
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  69
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  40
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  29
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  71
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="textOfTableInStatistics">5</div>
+                    <img
+                      src="images/statistics/clubIcons/icon5.png"
+                      alt="icon 5"
+                    />
+                    <div class="textOfTableInStatistics">Arsenal</div>
+                  </div>
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  38
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  22
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  3
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  13
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  61
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  48
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  13
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  69
+                </td>
+              </tr>
+              <tr style="background-color: #f5f5f5">
+                <td
+                  class="normalTableElementColor leftText textOfTableInStatistics"
+                >
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="textOfTableInStatistics">6</div>
+                    <img
+                      src="images/statistics/clubIcons/icon6.png"
+                      alt="icon 6"
+                    />
+                    <div class="textOfTableInStatistics">Mancester United</div>
+                  </div>
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  38
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  29
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  6
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  3
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  99
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  26
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  73
+                </td>
+                <td class="normalTableElementColor textOfTableInStatistics">
+                  93
+                </td>
+              </tr>
+            </table>
+          </article>
+          <!-- #endregion -->
+
+          <!-- #region Announcement of statistics -->
+          <article
+            class="d-flex flex-column align-items-center p-3 rounded justify-content-center gap-4"
+            style="height: inherit; background-color: white"
+          >
+            <!-- #region Title -->
+            <div class="textOfTableInStatistics">The Final Round</div>
+            <!-- #endregion -->
+
+            <!-- #region Clubs -->
+            <div class="d-flex">
+              <img src="images/statistics/announcment/club1.png" alt="Club 1" />
+              <!-- Text of VS -->
+              <div class="d-flex flex-column-reverse mx-2 align-items-center">
+                <p class="textOfTableInStatistics">Sunday, August 8th</p>
+                <div class="textOfVSInAnnouncement m-2">VS</div>
+              </div>
+              <img src="images/statistics/announcment/club2.png" alt="Club 2" />
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region Score -->
+            <div class="d-flex gap-1 py-3" style="color: white">
+              <!-- #region Left club -->
+              <div class="d-flex">
+                <!-- Name of left club -->
+                <div
+                  class="textOfTableInStatistics leftRounded p-2 text-center my-3"
+                  style="background-color: #2f5c9f; height: 38px"
+                >
+                  <p class="textOfTableInStatistics">Mancester City</p>
+                </div>
+                <!-- Score of left club -->
+                <div
+                  class="leftRounded p-2 my-1 d-flex "
+                  style="background-color: #3e3232; height: 57px;"
+                >
+                  <p class="textOfScoreInAnnouncement">00</p>
+                </div>
+              </div>
+              <!-- #endregion -->
+              <!-- #region Rignt club -->
+              <div class="d-flex">
+                <!-- Score of right club -->
+                <div
+                  class="rightRounded p-2 my-1"
+                  style="background-color: #3e3232; height: 57px;"
+                >
+                  <p class="textOfScoreInAnnouncement">00</p>
+                </div>
+                <!-- Name of right club -->
+                <div
+                  class="rightRounded p-2 my-3"
+                  style="background-color: #aa3034"
+                >
+                  <p class="textOfTableInStatistics my-auto">Liverpool</p>
+                </div>
+              </div>
+              <!-- #endregion -->
+            </div>
+            <!-- #endregion -->
+          </article>
+          <!-- #endregion -->
+        </main>
+      </section>
+      <!-- #endregion -->
+
+
+      
+      <!-- #region New posts -->
+      <section class="container my-4">
+        <!-- #region Title Of Popular Posts -->
+        <article class="d-flex justify-content-between">
+          <!-- #region Left side of Title Of Popular Posts -->
+          <div class="d-flex align-items-center">
+            <img
+              src="images/popularPosts/RedRectangle.png"
+              alt="Red Rectangle"
+            />
+            <p class="TextOftitleOfPopularPostsLeft my-auto mx-2">
+              New Posts
+            </p>
+          </div>
+          <!-- #endregion -->
+          <!-- #region Rght side of Title Of Popular Posts -->
+          <div class="d-flex gap-2">
+            <!-- Previous arrow -->
+            <div class="elementBox">
+              <img
+                src="images/popularPosts/Arrows/background.png"
+                alt="Background"
+              />
+              <img
+                src="images/popularPosts/Arrows/previous.png"
+                alt="Previous"
+                class="elementInCenter"
+              />
+            </div>
+            <!-- Next arrow -->
+
+            <div class="elementBox">
+              <img
+                src="images/popularPosts/Arrows/background.png"
+                alt="Background"
+              />
+              <img
+                src="images/popularPosts/Arrows/next.png"
+                alt="Next"
+                class="elementInCenter"
+              />
+            </div>
+          </div>
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Popular posts -->
+        <article
+          class="d-flex p-1 my-3 rounded gap-2"
+          style="background-color: #f5f5f5"
+        >
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/sport.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                Opening Day of Boating Season, Seattle WA
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Of course the Puget Sound is very watery, and where there is
+                water, there are boats. Today is the Grand Opening of Boating
+                Season when traffic gets stalled in the University District (UW)
+                while the Montlake Bridge
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/james.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/technology.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How to choose the right laptop for programming
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Choosing the right laptop for programming can be a tough
+                process. It’s easy to get confused while researching the various
+                options. There are many different laptop models out there, each
+                with a different set of trade-offs
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/louis.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/car.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How we built the first real self-driving car
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Electric self-driving cars will save millions of lives and
+                significantly accelerate the world’s transition to sustainable
+                energy, but only when
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/mary.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/food.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How to Persuade Your Parents to Buy Fast Food
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Parents often don’t want to buy fast food. They may be worried
+                that it’s too expensive, unhealthy, or not worth the effort and
+                time.
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/jon.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+
+    </main>
+    <!-- #endregion -->
+
+    <!-- #region Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- #endregion -->
+  </body>
+</html>

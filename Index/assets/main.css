@@ -1,0 +1,211 @@
+/* #region Slider  */
+.sliderBackgroundDiv {
+  background-color: #f5f5f5;
+  height: 68px;
+  display: flex;
+  gap: 15px;
+  padding: 10px 20px;
+}
+
+.sliderItem {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.sliderItem img {
+  width: 100%;
+  filter: blur(2px);
+}
+
+.textOfItem {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lastSliderItem {
+  position: relative;
+  width: 170px;
+  height: 48px;
+  padding-top: 2px;
+}
+
+.img1 {
+  width: inherit;
+  height: 42px;
+  filter: blur(2px);
+
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: inherit;
+  height: inherit;
+  filter: blur(2px);
+  z-index: 2;
+}
+
+.img3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  width: 12px;
+  height: auto;
+  z-index: 3;
+}
+
+/* #endregion */
+
+/* #region Themes */
+.itemTheme {
+  position: relative;
+}
+
+.itemTheme img {
+  width: 100%;
+}
+
+.textOnImageInThemeBox {
+  height: 117px;
+  margin: 10px;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0px;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.titleOftextOnImageInThemeBox {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29.3px;
+  height: 50%;
+}
+
+.aboutOftextOnImageInThemeBox {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+/* #endregion */
+
+/* #region Popular posts */
+
+.TextOftitleOfPopularPostsLeft {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
+.elementBox {
+  position: relative;
+}
+
+.elementInCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.TitleOfPopularPost {
+  margin: 16px 6px;
+  height: 20px;
+  font-weight: 500;
+  line-height: 18.75px;
+  font-size: 16px;
+  overflow-y: hidden;
+}
+
+.AboutOfPopularPost {
+  margin: 0 6px;
+  height: 80px;
+  overflow-y: hidden;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.personNameOfPopularPost {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+
+.dateOfPopularPost {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+}
+/* #endregion */
+
+/* #region Statistics */
+.headOfTable {
+  line-height: 18.75px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.textOfTableInStatistics {
+  line-height: 18.75px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dullTableElementColor {
+  color: #3e323280;
+}
+
+.normalTableElementColor {
+  color: #3e3232;
+}
+
+.statisticsBox th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.leftText {
+  text-align: left !important;
+}
+
+.textOfVSInAnnouncement {
+  font-weight: 600;
+  color: #f81539;
+  font-size: 39px;
+  line-height: 45.7px;
+  letter-spacing: 5px;
+}
+
+.textOfScoreInAnnouncement {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.3px;
+}
+
+.leftRounded{
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.rightRounded{
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.textInScore{
+  line-height: inherit !important;
+  text-align: center;
+}
+/* #endregion */
