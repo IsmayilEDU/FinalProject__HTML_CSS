@@ -194,18 +194,121 @@ td {
   line-height: 29.3px;
 }
 
-.leftRounded{
+.leftRounded {
   border-top-left-radius: 20%;
   border-bottom-left-radius: 20%;
 }
 
-.rightRounded{
+.rightRounded {
   border-top-right-radius: 20%;
   border-bottom-right-radius: 20%;
 }
 
-.textInScore{
+.textInScore {
   line-height: inherit !important;
   text-align: center;
+}
+/* #endregion */
+
+/* #region New posts */
+.textOfShowAllInTitleInPopularPosts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #3e3232bf;
+}
+/* #endregion */
+
+/* #region Latest Videos */
+.mainLatestVideoBox {
+  position: relative;
+  max-width: fit-content;
+}
+
+.playButtonBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 50%;
+  padding: 6%;
+}
+
+.backgroundArrow {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20%;
+  padding: 1% 2%;
+}
+
+.aboutOfMainVideoBox {
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  bottom: 2%;
+  margin: 0 2%;
+}
+
+.titleOfAboutOfMainVideo {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.44px;
+  height: 24px;
+  overflow-y: hidden;
+}
+
+.aboutOftitleOfAboutOfMainVideo {
+  height: 45px;
+  overflow-y: hidden;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+}
+
+.otherLatestVideoBox{
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+.otherLatestVideoBox img{
+max-width: 35%;
+max-height: 35%;
+}
+
+.textOfTitleOfLatestVideo{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  height: 20px;
+  overflow-y: hidden;
+}
+
+.textOfAboutOfLatestVideo{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: 100px;
+  overflow-y: hidden;
+}
+/* #endregion */
+
+/* #region Weather */
+.weatherIconBox{
+  position: relative;
+  min-height: fit-content;
+}
+
+.iconWeather{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 /* #endregion */
