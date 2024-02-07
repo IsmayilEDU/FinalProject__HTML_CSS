@@ -1696,8 +1696,6 @@
                 </div>
               </div>
               <!-- #endregion -->
-
-              
             </div>
             <!-- #endregion -->
           </article>
@@ -1705,7 +1703,7 @@
         </section>
       </section>
       <!-- #endregion -->
-      
+
       <!-- #region Trendy posts -->
       <section class="container my-4">
         <!-- #region Title Of Trendy Posts -->
@@ -2017,47 +2015,99 @@
       <!-- #endregion -->
 
       <!-- #region About Weather -->
-      <section class="container-fluid my-3" style="background-color: #f5f5f5;">
+      <section class="container-fluid my-3 p-4" style="background-color: #f5f5f5">
         <section class="container">
-
           <!-- #region Statistic -->
-          <article class="p-2" style="width: 50%; height: fit-content;">
+          <article class="p-2" style="width: 50%; height: fit-content;background-color: white;">
             <!-- #region Title -->
-            <div class="d-flex gap-2 rounded bg-white" >
-              <!-- #region Image -->
-              <div class="weatherIconBox">
-                <img  src="images/weather/mainWeather/sunny/outsideSunny.png" />
-                <img class="iconWeather" src="images/weather/mainWeather/sunny/insideSunny.png" />
+            <div
+              class="d-flex gap-2 rounded align-items-center justify-content-between"
+            >
+              <!-- #region Left side -->
+              <div class="d-flex gap-2 rounded align-items-center">
+                <!-- #region Image -->
+                <div class="weatherIconBox">
+                  <img
+                    src="images/weather/mainWeather/sunny/outsideSunny.png"
+                  />
+                  <img
+                    class="iconWeather"
+                    src="images/weather/mainWeather/sunny/insideSunny.png"
+                  />
+                </div>
+                <!-- #endregion -->
+
+                <!-- #region Number of temperature -->
+                <div class="numberOfTemperature">29</div>
+                <!-- #endregion -->
+
+                <!-- #region c' -->
+                <div class="align-self-start mt-3">
+                  <img src="images/weather/mainWeather/celsi.png" />
+                </div>
+                <!-- #endregion -->
+
+                <!-- #region Other specifications -->
+                <div class="mx-4">
+                  <p class="specificationOfWeather">Precipitation: 2%</p>
+                  <p class="specificationOfWeather">Humidity: 70%</p>
+                  <p class="specificationOfWeather">Wind: 3 km/h</p>
+                </div>
+                <!-- #endregion -->
               </div>
               <!-- #endregion -->
 
+              <!-- #region Right side -->
+              <div class="d-flex flex-column justify-content-between">
+                <p class="cityOfmainWeather">New York, NY</p>
+                <p class="dayOfWeekInMainWeather">Wednesday 04:00</p>
+              </div>
+              <!-- #endregion -->
             </div>
             <!-- #endregion -->
 
             <!-- #region Vector -->
-            <div>
-
+            <div style="overflow-x: hidden">
+              <img src="images/weather/mainWeather/Vector.png" />
             </div>
             <!-- #endregion -->
 
             <!-- #region Hours -->
-            <div>
-              
+            <div class="d-flex justify-content-center gap-4">
+              <p class="col-1 hourInMainWeather">5 AM</p>
+              <p class="col-1 hourInMainWeather">8 AM</p>
+              <p class="col-1 hourInMainWeather">11 AM</p>
+              <p class="col-1 hourInMainWeather">2 PM</p>
+              <p class="col-1 hourInMainWeather">5 PM</p>
+              <p class="col-1 hourInMainWeather">8 PM</p>
+              <p class="col-1 hourInMainWeather">11 PM</p>
+              <p class="col-1 hourInMainWeather">2 AM</p>
             </div>
             <!-- #endregion -->
-            
+
             <!-- #region Days -->
-            <div>
+            <div class="d-flex align-items-center gap-2">
+              <!-- #region Day 1 -->
+              <div class="d-flex justify-content-center flex-column"
+              style="background-color: #f5f5f5;">
+                <!-- Day 1  -->
+                <p class="dayNameInDaysInMainWeather">Tue</p>
 
+                <!-- Image box -->
+                <div>
+                  <img src="images/weather/mainWeather/days/day1/outsideSun.png" />
+                  <img src=""
+                </div>
+
+              </div>
+              <!-- #endregion -->
             </div>
             <!-- #endregion -->
-
           </article>
           <!-- #endregion -->
 
           <!-- #region Weather -->
-          <article style="width: 50%; height: fit-content;">
-          </article>
+          <article style="width: 50%; height: fit-content"></article>
           <!-- #endregion -->
         </section>
       </section>

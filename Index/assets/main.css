@@ -271,18 +271,18 @@ td {
   font-weight: 400;
 }
 
-.otherLatestVideoBox{
+.otherLatestVideoBox {
   background-color: white;
   height: fit-content;
   width: fit-content;
 }
 
-.otherLatestVideoBox img{
-max-width: 35%;
-max-height: 35%;
+.otherLatestVideoBox img {
+  max-width: 35%;
+  max-height: 35%;
 }
 
-.textOfTitleOfLatestVideo{
+.textOfTitleOfLatestVideo {
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -290,7 +290,7 @@ max-height: 35%;
   overflow-y: hidden;
 }
 
-.textOfAboutOfLatestVideo{
+.textOfAboutOfLatestVideo {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -300,15 +300,54 @@ max-height: 35%;
 /* #endregion */
 
 /* #region Weather */
-.weatherIconBox{
+.weatherIconBox {
   position: relative;
   min-height: fit-content;
 }
 
-.iconWeather{
+.iconWeather {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+
+.numberOfTemperature {
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 57px;
+  margin-left: 20px;
+}
+
+.specificationOfWeather {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.cityOfmainWeather {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
+.dayOfWeekInMainWeather {
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.hourInMainWeather {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.dayNameInDaysInMainWeather {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
 }
 /* #endregion */
