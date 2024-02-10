@@ -303,6 +303,7 @@ td {
 .weatherIconBox {
   position: relative;
   min-height: fit-content;
+  display: flex;
 }
 
 .iconWeather {
@@ -350,4 +351,37 @@ td {
   font-size: 16px;
   line-height: 18.75px;
 }
+
+.imageBoxOfDayInMainWeather {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.img2InMainWeather {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.TemperatureInDayInMainWeather {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.img3InMainWeather{
+  position: absolute;
+  top:65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.changePositionToSartXY{
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+
+
 /* #endregion */
