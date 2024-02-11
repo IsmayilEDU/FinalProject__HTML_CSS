@@ -1,387 +1,136 @@
-/* #region Slider  */
-.sliderBackgroundDiv {
-  background-color: #f5f5f5;
-  height: 68px;
-  display: flex;
-  gap: 15px;
-  padding: 10px 20px;
-}
-
-.sliderItem {
-  width: auto;
-  height: auto;
-  position: relative;
-}
-
-.sliderItem img {
-  width: 100%;
-  filter: blur(2px);
-}
-
-.textOfItem {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.lastSliderItem {
-  position: relative;
-  width: 170px;
-  height: 48px;
-  padding-top: 2px;
-}
-
-.img1 {
-  width: inherit;
-  height: 42px;
-  filter: blur(2px);
-
-  z-index: 1;
-}
-
-.img2 {
-  position: absolute;
-  top: 0px;
-  left: 5px;
-  width: inherit;
-  height: inherit;
-  filter: blur(2px);
-  z-index: 2;
-}
-
-.img3 {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  width: 12px;
-  height: auto;
-  z-index: 3;
-}
-
-/* #endregion */
-
-/* #region Themes */
-.itemTheme {
-  position: relative;
-}
-
-.itemTheme img {
-  width: 100%;
-}
-
-.textOnImageInThemeBox {
-  height: 117px;
-  margin: 10px;
-  background-color: white;
-  opacity: 0.7;
-  position: absolute;
-  bottom: 0px;
-  padding: 16px;
-  overflow: hidden;
-}
-
-.titleOftextOnImageInThemeBox {
+/* #region Contents */
+.titleOfContents {
+  font-size: 36px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 29.3px;
-  height: 50%;
+  line-height: 42px;
 }
 
-.aboutOftextOnImageInThemeBox {
-  font-weight: 400;
+.specificationTextOfContent {
+  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.25px;
+}
+
+.titleOfContent {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.aboutOfContent{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.nameOfButtonInAside{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
 }
 /* #endregion */
 
-/* #region Popular posts */
+/* #region Aside  */
 
-.TextOftitleOfPopularPostsLeft {
+.personFullnameInAside{
   font-weight: 500;
   font-size: 20px;
-  line-height: 23.44px;
+  line-height: 23px;
 }
 
-.elementBox {
-  position: relative;
-}
-
-.elementInCenter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.TitleOfPopularPost {
-  margin: 16px 6px;
-  height: 20px;
-  font-weight: 500;
-  line-height: 18.75px;
-  font-size: 16px;
-  overflow-y: hidden;
-}
-
-.AboutOfPopularPost {
-  margin: 0 6px;
-  height: 80px;
-  overflow-y: hidden;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-}
-
-.personNameOfPopularPost {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.1px;
-}
-
-.dateOfPopularPost {
+.postCountInAside{
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.25px;
 }
-/* #endregion */
 
-/* #region Statistics */
-.headOfTable {
-  line-height: 18.75px;
-  font-size: 16px;
+#followButtonText{
   font-weight: 500;
-}
-
-.textOfTableInStatistics {
-  line-height: 18.75px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.dullTableElementColor {
-  color: #3e323280;
-}
-
-.normalTableElementColor {
-  color: #3e3232;
-}
-
-.statisticsBox th,
-td {
-  padding: 10px;
-  text-align: center;
-}
-
-.leftText {
-  text-align: left !important;
-}
-
-.textOfVSInAnnouncement {
-  font-weight: 600;
-  color: #f81539;
-  font-size: 39px;
-  line-height: 45.7px;
-  letter-spacing: 5px;
-}
-
-.textOfScoreInAnnouncement {
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 29.3px;
-}
-
-.leftRounded {
-  border-top-left-radius: 20%;
-  border-bottom-left-radius: 20%;
-}
-
-.rightRounded {
-  border-top-right-radius: 20%;
-  border-bottom-right-radius: 20%;
-}
-
-.textInScore {
-  line-height: inherit !important;
-  text-align: center;
-}
-/* #endregion */
-
-/* #region New posts */
-.textOfShowAllInTitleInPopularPosts {
-  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.5px;
-  color: #3e3232bf;
-}
-/* #endregion */
-
-/* #region Latest Videos */
-.mainLatestVideoBox {
-  position: relative;
-  max-width: fit-content;
+  color: white;
 }
 
-.playButtonBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  opacity: 0.6;
-  border-radius: 50%;
-  padding: 6%;
-}
-
-.backgroundArrow {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  opacity: 0.8;
-  border-radius: 20%;
-  padding: 1% 2%;
-}
-
-.aboutOfMainVideoBox {
-  position: absolute;
-  background-color: white;
-  opacity: 0.8;
-  bottom: 2%;
-  margin: 0 2%;
-}
-
-.titleOfAboutOfMainVideo {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 23.44px;
-  height: 24px;
-  overflow-y: hidden;
-}
-
-.aboutOftitleOfAboutOfMainVideo {
-  height: 45px;
-  overflow-y: hidden;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-  font-weight: 400;
-}
-
-.otherLatestVideoBox {
-  background-color: white;
-  height: fit-content;
-  width: fit-content;
-}
-
-.otherLatestVideoBox img {
-  max-width: 35%;
-  max-height: 35%;
-}
-
-.textOfTitleOfLatestVideo {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 18.75px;
-  height: 20px;
-  overflow-y: hidden;
-}
-
-.textOfAboutOfLatestVideo {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  height: 100px;
-  overflow-y: hidden;
-}
-/* #endregion */
-
-/* #region Weather */
-.weatherIconBox {
-  position: relative;
-  min-height: fit-content;
-  display: flex;
-}
-
-.iconWeather {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.numberOfTemperature {
-  font-weight: 400;
-  font-size: 49px;
-  line-height: 57px;
-  margin-left: 20px;
-}
-
-.specificationOfWeather {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14.06px;
-}
-
-.cityOfmainWeather {
+.TitleOfSection{
   font-weight: 500;
   font-size: 20px;
-  line-height: 23.44px;
+  font-size: 23px;
 }
 
-.dayOfWeekInMainWeather {
-  font-size: 14px;
-  letter-spacing: 0.25px;
+.tagElement{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.titleOfTopPostInAside{
+  font-weight: 500;
+  font-size: 13px;
   line-height: 20px;
-  font-weight: 400;
 }
 
-.hourInMainWeather {
+.categoryOfTopPostInAside{
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 18px;
   letter-spacing: 0.25px;
 }
 
-.dayNameInDaysInMainWeather {
+.centerOfImage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* #endregion */
+
+/* #region Comments */
+
+.profileNameInComment{
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
 }
 
-.imageBoxOfDayInMainWeather {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.img2InMainWeather {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.TemperatureInDayInMainWeather {
+.commentTextInComments{
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
 }
 
-.img3InMainWeather{
-  position: absolute;
-  top:65%;
-  left: 80%;
-  transform: translate(-50%, -50%);
+.inputTitleInComment{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
 }
 
-.changePositionToSartXY{
-  position: absolute;
-  transform: translate(-50%, -50%);
+.inputStyleInComment{
+  width: 100%;
+  background-color: #F5F5F5;
+  font-size: 16px;
+  border: none;
 }
 
+.textareaStyleInComment{
+  width: 100%;
+  height: 87%;
+  border: none;
+  font-size: 16px;
+  background-color: #F5F5F5;
+}
 
+.buttonTextInAddComment{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+/* #endregion */
 
+/* #region Related Posts */
+.TitleOfRelatedPost{
+
+}
 /* #endregion */
