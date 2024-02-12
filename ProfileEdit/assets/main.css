@@ -1,0 +1,36 @@
+/* #region Inputs */
+.inputTitleInComment{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+.inputStyleInComment{
+  width: 100%;
+  background-color: #F5F5F5;
+  font-size: 16px;
+  border: none;
+}
+
+.textOfAboutButton{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.buttonText{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.textareaStyleInComment{
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  background-color: #F5F5F5;
+}
+
+
+/* #endregion */

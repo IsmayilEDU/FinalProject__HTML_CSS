@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- #region Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- #endregion -->
+
+    <!-- #region Reboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- #endregion -->
+
+    <!-- #region Styles -->
+    <link rel="stylesheet" href="assets/allSettings.css" />
+    <link rel="stylesheet" href="assets/header.css" />
+    <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="assets/footer.css" />
+    <!-- #endregion -->
+
+    <title>Profile Edit</title>
+  </head>
+  <body>
+    <!-- #region Header -->
+    <header
+      class="container d-flex justify-content-between my-sm-4 my-lg-1 my-xl-3"
+    >
+      <!-- #region Left header -->
+      <section class="d-flex">
+        <!-- Menu icon -->
+        <div id="menuIcon" class="d-sm-block d-lg-block d-xl-none">
+          <img src="icons/icon.png" />
+        </div>
+
+        <!-- Text of MEGA.news -->
+        <div class="d-flex align-items-center">
+          <p class="megaNews my-auto">MEGA.news</p>
+        </div>
+
+        <!-- #region Menu -->
+        <menu
+          class="d-sm-none d-lg-none d-xl-flex align-items-center"
+          style="margin-left: 68px; gap: 20px; list-style: none"
+        >
+          <!-- Categories -->
+          <li>
+            <select class="menuItem">
+              <option>Categories</option>
+            </select>
+          </li>
+
+          <!-- Pages -->
+          <li>
+            <select class="menuItem">
+              <option>Pages</option>
+            </select>
+          </li>
+
+          <!-- Contact us -->
+          <li class="menuItem">
+            <p class="my-auto">Contact us</p>
+          </li>
+
+          <!-- About us -->
+          <li class="menuItem">
+            <p class="my-auto">About us</p>
+          </li>
+        </menu>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Right header -->
+      <section class="d-flex gap-4">
+        <!-- #region Search of div -->
+        <div class="searchDiv borderPicture d-sm-block d-lg-none d-xl-block">
+          <img src="icons/3point.png" />
+          <input
+            type="text"
+            placeholder="Search Anything"
+            style="background-color: inherit; border-style: none"
+          />
+          <img src="icons/search.png" />
+        </div>
+        <!-- #endregion -->
+        <!-- #region Profile information of div -->
+        <div class="profileInformation d-sm-none d-lg-block d-xl-block">
+          <img
+            src="images/IMG_03999 1.png"
+            alt="Profile picture"
+            class="borderPicture"
+          />
+          <select class="menuItem">
+            <option>Beyzad</option>
+          </select>
+        </div>
+
+        <div class="saveDiv borderPicture"><img src="icons/save.png" /></div>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+    </header>
+    <!-- #endregion -->
+
+    <!-- #region Search of div for tablets-->
+    <div class="searchDiv borderPicture d-sm-none d-lg-flex d-xl-none">
+      <div class="col-lg-1 d-flex justify-content-center">
+        <img src="icons/3point.png" />
+      </div>
+
+      <div class="col-lg-10">
+        <input
+          type="text"
+          placeholder="Search Anything"
+          style="background-color: inherit; border-style: none"
+        />
+      </div>
+      <div class="col-lg-1 d-flex justify-content-center">
+        <img src="icons/search.png" />
+      </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Main -->
+    <main class="container d-flex flex-column gap-4">
+      <!-- #region Breadcrumb -->
+      <section>
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Profile Edit
+            </li>
+          </ol>
+        </nav>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Inputs -->
+      <section class="d-flex flex-wrap">
+        <!-- #region Input First Name Box -->
+        <article class="col-4 p-2">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">First Name</p>
+          <!-- #endregion -->
+          <!-- #region input of box -->
+          <input class="py-2 px-3 rounded inputStyleInComment" type="text" />
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Input Last Name Box -->
+        <article class="col-4 p-2">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Last Name</p>
+          <!-- #endregion -->
+          <!-- #region input of box -->
+          <input class="py-2 px-3 rounded inputStyleInComment" type="text" />
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Input Username Box -->
+        <article class="col-4 p-2">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Username</p>
+          <!-- #endregion -->
+          <!-- #region input of box -->
+          <input class="py-2 px-3 rounded inputStyleInComment" type="text" />
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Input Old Password Box -->
+        <article class="col-4 p-2">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Old Password</p>
+          <!-- #endregion -->
+          <!-- #region input of box -->
+          <input
+            class="py-2 px-3 rounded inputStyleInComment"
+            type="password"
+          />
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Input Password Box -->
+        <article class="col-4 p-2">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Password</p>
+          <!-- #endregion -->
+          <!-- #region input of box -->
+          <input
+            class="py-2 px-3 rounded inputStyleInComment"
+            type="password"
+          />
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Input Email Box -->
+        <article class="col-4 p-2">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Email</p>
+          <!-- #endregion -->
+          <!-- #region input of box -->
+          <input class="py-2 px-3 rounded inputStyleInComment" type="email" />
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Add banner -->
+      <section class="p-2">
+        <!-- #region Title of box -->
+        <p class="inputTitleInComment">Add Banner</p>
+        <!-- #endregion -->
+
+        <section class="p-2 rounded" style="background-color: #f5f5f5">
+          <!-- #region Add banner border -->
+          <article
+            style="border: 2px dotted #e1e1e1"
+            class="d-flex align-items-center justify-content-center gap-2"
+          >
+            <!-- #region Add banner box -->
+            <div class="d-flex gap-2 p-4">
+              <!-- #region Image icon -->
+              <div>
+                <img src="images/imageIcon.png" style="min-height: 100%" />
+              </div>
+              <!-- #endregion -->
+
+              <!-- #region Text, Button -->
+              <div
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <!-- #region Text -->
+                <p class="textOfAboutButton">Drop image here, paste or</p>
+                <!-- #endregion -->
+
+                <!-- #region Button -->
+                <div
+                  class="d-flex align-items-center gap-2 rounded px-3 py-2"
+                  style="border: 2px solid #e1e1e1"
+                >
+                  <img src="icons/plusIcon.png" />
+                  <p class="buttonText my-auto">Select</p>
+                </div>
+                <!-- #endregion -->
+              </div>
+              <!-- #endregion -->
+            </div>
+            <!-- #endregion -->
+          </article>
+          <!-- #endregion -->
+        </section>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Explanation, Add Image -->
+      <section class="p-2 d-flex gap-2">
+        <!-- #region Explanation -->
+        <article class="d-flex flex-column gap-2 col-9">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Explanation</p>
+          <!-- #endregion -->
+
+          <!-- #region Buttons -->
+          <div class="d-flex gap-2">
+            <!-- #region Button of image -->
+            <div
+              class="d-flex align-items-center gap-2 rounded px-3 py-2"
+              style="background-color: #f5f5f5"
+            >
+              <img src="images/main/explanation/color.png" />
+              <p class="buttonText my-auto">Color</p>
+            </div>
+            <!-- #endregion -->
+            <!-- #region Button of image -->
+            <div
+              class="d-flex align-items-center gap-2 rounded px-3 py-2"
+              style="background-color: #f5f5f5"
+            >
+              <img src="images/main/explanation/text.png" />
+              <p class="buttonText my-auto">Text</p>
+            </div>
+            <!-- #endregion -->
+            <!-- #region Button of image -->
+            <div
+              class="d-flex align-items-center gap-2 rounded px-3 py-2"
+              style="background-color: #f5f5f5"
+            >
+              <img src="images/main/explanation/align.png" />
+              <p class="buttonText my-auto">Align</p>
+            </div>
+            <!-- #endregion -->
+            <!-- #region Button of image -->
+            <div
+              class="d-flex align-items-center gap-2 rounded px-3 py-2"
+              style="background-color: #f5f5f5"
+            >
+              <img src="images/main/explanation/link.png" />
+              <p class="buttonText my-auto">Link</p>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region Text Area -->
+          <textarea class="textareaStyleInComment rounded"></textarea>
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+
+        <!-- #region Add Image -->
+        <article class="col-3">
+          <!-- #region Title of box -->
+          <p class="inputTitleInComment">Add Banner</p>
+          <!-- #endregion -->
+
+          <!-- #region Add Image border -->
+          <section class="p-2 rounded" style="background-color: #f5f5f5">
+            <article
+              style="border: 2px dotted #e1e1e1"
+              class="d-flex align-items-center justify-content-center gap-2"
+            >
+              <!-- #region Add banner box -->
+              <div class="d-flex flex-column align-items-center gap-2 p-4">
+                <!-- #region Image icon -->
+                <div>
+                  <img src="images/imageIcon.png" style="min-height: 100%" />
+                </div>
+                <!-- #endregion -->
+
+                <!-- #region Text, Button -->
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center"
+                >
+                  <!-- #region Text -->
+                  <p class="textOfAboutButton">Drop image here, paste or</p>
+                  <!-- #endregion -->
+
+                  <!-- #region Button -->
+                  <div
+                    class="d-flex align-items-center gap-2 rounded px-3 py-2"
+                    style="border: 2px solid #e1e1e1"
+                  >
+                    <img src="icons/plusIcon.png" />
+                    <p class="buttonText my-auto">Select</p>
+                  </div>
+                  <!-- #endregion -->
+                </div>
+                <!-- #endregion -->
+              </div>
+              <!-- #endregion -->
+            </article>
+          </section>
+          <!-- #endregion -->
+        </article>
+        <!-- #endregion -->
+      </section>
+      <!-- #endregion -->
+    </main>
+    <!-- #endregion -->
+  </body>
+</html>
