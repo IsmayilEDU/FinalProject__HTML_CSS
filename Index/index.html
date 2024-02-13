@@ -137,7 +137,7 @@
     <!-- #endregion -->
 
     <!-- #region Main  -->
-    <main class="container d-flex flex-column gap-3">
+    <main class=" d-flex flex-column gap-3">
       <!-- #region Slider -->
       <section
         class="container sliderBackgroundDiv borderPicture d-sm-none d-lg-none d-xl-flex"
@@ -203,7 +203,7 @@
 
       <!-- #region Themes -->
       <section
-        class="my-4 d-sm-none d-lg-flex d-xl-flex gap-3 justify-content-center"
+        class=" container d-sm-none d-lg-flex d-xl-flex gap-3 justify-content-center"
       >
         <!-- #region Item theme -->
         <article class="itemTheme d-sm-none d-lg-none d-xl-block">
@@ -285,7 +285,7 @@
       <!-- #endregion -->
 
       <!-- #region Popular posts -->
-      <section class="d-flex flex-column gap-2">
+      <section class="d-flex flex-column gap-2 container">
         <!-- #region Title Of Popular Posts -->
         <article class="d-flex justify-content-between">
           <!-- #region Left side of Title Of Popular Posts -->
@@ -606,18 +606,16 @@
       <section
         class="container-fluid d-flex justify-content-center align-items-center statisticsBox"
         style="
-          height: 464px;
           background-image: url(images/statistics/blurBackground.png);
           background-size: 100% 100%;
         "
       >
         <main
-          class="d-flex justify-content-center align-items-center gap-4"
-          style="height: 350px"
+          class="d-flex justify-content-center align-items-center gap-4 container py-5"
         >
           <!-- #region Calendar of statistics -->
           <article
-            class="p-2 rounded"
+            class="p-2 rounded d-sm-block d-lg-none d-xl-block"
             style="background-color: white; height: inherit"
           >
             <div class="headOfTable m-2">Jan 2022</div>
@@ -716,7 +714,7 @@
 
           <!-- #region List of clubs of statistics -->
           <article
-            class="listOfClubsOfStatistics rounded p-4"
+            class=" d-sm-none d-lg-none d-xl-block rounded p-4"
             style="background-color: white; height: inherit"
           >
             <table>
@@ -975,22 +973,26 @@
 
           <!-- #region Announcement of statistics -->
           <article
-            class="d-flex flex-column align-items-center p-3 rounded justify-content-center gap-4"
-            style="height: inherit; background-color: white"
+            class="d-sm-none d-lg-flex d-xl-flex flex-column align-items-center p-3 rounded justify-content-center gap-4"
+            style="background-color: white"
           >
             <!-- #region Title -->
             <div class="textOfTableInStatistics">The Final Round</div>
             <!-- #endregion -->
 
             <!-- #region Clubs -->
-            <div class="d-flex">
-              <img src="images/statistics/announcment/club1.png" alt="Club 1" />
+            <div class="d-flex ">
+              <div>
+                <img src="images/statistics/announcment/club1.png" alt="Club 1" style="max-width: 100%;" />
+              </div>
               <!-- Text of VS -->
               <div class="d-flex flex-column-reverse mx-2 align-items-center">
                 <p class="textOfTableInStatistics">Sunday, August 8th</p>
                 <div class="textOfVSInAnnouncement m-2">VS</div>
               </div>
-              <img src="images/statistics/announcment/club2.png" alt="Club 2" />
+              <div>
+                <img src="images/statistics/announcment/club2.png" alt="Club 2"  style="max-width: 100%;"/>
+              </div>
             </div>
             <!-- #endregion -->
 
@@ -1001,14 +1003,14 @@
                 <!-- Name of left club -->
                 <div
                   class="textOfTableInStatistics leftRounded p-2 text-center my-3"
-                  style="background-color: #2f5c9f; height: 38px"
+                  style="background-color: #2f5c9f;"
                 >
                   <p class="textOfTableInStatistics">Mancester City</p>
                 </div>
                 <!-- Score of left club -->
                 <div
                   class="leftRounded p-2 my-1 d-flex"
-                  style="background-color: #3e3232; height: 57px"
+                  style="background-color: #3e3232;"
                 >
                   <p class="textOfScoreInAnnouncement">00</p>
                 </div>
@@ -1018,8 +1020,8 @@
               <div class="d-flex">
                 <!-- Score of right club -->
                 <div
-                  class="rightRounded p-2 my-1"
-                  style="background-color: #3e3232; height: 57px"
+                  class="rightRounded p-2 my-1 d-flex"
+                  style="background-color: #3e3232;"
                 >
                   <p class="textOfScoreInAnnouncement">00</p>
                 </div>
@@ -1028,7 +1030,7 @@
                   class="rightRounded p-2 my-3"
                   style="background-color: #aa3034"
                 >
-                  <p class="textOfTableInStatistics my-auto">Liverpool</p>
+                  <p class="textOfTableInStatistics">Liverpool</p>
                 </div>
               </div>
               <!-- #endregion -->

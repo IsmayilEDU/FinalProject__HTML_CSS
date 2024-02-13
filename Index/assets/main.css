@@ -160,6 +160,7 @@
   line-height: 18.75px;
   font-size: 16px;
   font-weight: 500;
+  margin: auto 0;
 }
 
 .dullTableElementColor {
@@ -172,7 +173,7 @@
 
 .statisticsBox th,
 td {
-  padding: 10px;
+  padding: 6px;
   text-align: center;
 }
 
@@ -192,16 +193,17 @@ td {
   font-weight: 400;
   font-size: 25px;
   line-height: 29.3px;
+  margin: auto 0;
 }
 
 .leftRounded {
-  border-top-left-radius: 20%;
-  border-bottom-left-radius: 20%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .rightRounded {
-  border-top-right-radius: 20%;
-  border-bottom-right-radius: 20%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .textInScore {
