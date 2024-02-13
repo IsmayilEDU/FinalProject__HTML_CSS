@@ -118,12 +118,10 @@
 }
 
 .TitleOfPopularPost {
-  display: flex;
-  align-items: center;
   font-weight: 500;
   line-height: 18.75px;
   font-size: 16px;
-  height: 25%;
+  height: 19px;
   overflow-y: hidden;
 }
 
@@ -131,8 +129,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  height: 40px;
   overflow-y: hidden;
-  height: 25%;
   letter-spacing: 0.25px;
 }
 
