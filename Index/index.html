@@ -34,11 +34,8 @@
     <title>Index</title>
   </head>
   <body>
-    
     <!-- #region Header -->
-    <header
-      class="container d-flex justify-content-between my-sm-4 my-lg-1 my-xl-3"
-    >
+    <header class="container d-flex justify-content-between my-3">
       <!-- #region Left header -->
       <section class="d-flex">
         <!-- Menu icon -->
@@ -87,7 +84,9 @@
       <!-- #region Right header -->
       <section class="d-flex gap-4">
         <!-- #region Search of div -->
-        <div class="searchDiv borderPicture d-sm-block d-lg-none d-xl-block">
+        <div
+          class="searchDiv borderPicture d-sm-flex d-lg-none d-xl-flex gap-3"
+        >
           <img src="icons/3point.png" />
           <input
             type="text"
@@ -109,7 +108,9 @@
           </select>
         </div>
 
-        <div class="saveDiv borderPicture"><img src="icons/save.png" /></div>
+        <div class="d-sm-none d-lg-block d-xl-block saveDiv borderPicture">
+          <img src="icons/save.png" />
+        </div>
         <!-- #endregion -->
       </section>
       <!-- #endregion -->
@@ -117,7 +118,7 @@
     <!-- #endregion -->
 
     <!-- #region Search of div for tablets-->
-    <div class="searchDiv borderPicture d-sm-none d-lg-flex d-xl-none">
+    <div class="searchDiv rounded d-sm-none d-lg-flex d-xl-none container">
       <div class="col-lg-1 d-flex justify-content-center">
         <img src="icons/3point.png" />
       </div>
@@ -136,7 +137,7 @@
     <!-- #endregion -->
 
     <!-- #region Main  -->
-    <main>
+    <main class="container d-flex flex-column gap-3">
       <!-- #region Slider -->
       <section
         class="container sliderBackgroundDiv borderPicture d-sm-none d-lg-none d-xl-flex"
@@ -201,51 +202,59 @@
       <!-- #endregion -->
 
       <!-- #region Themes -->
-      <section class="container my-4 d-flex gap-3">
-        <!-- Item theme -->
-        <article class="itemTheme">
+      <section
+        class="my-4 d-sm-none d-lg-flex d-xl-flex gap-3 justify-content-center"
+      >
+        <!-- #region Item theme -->
+        <article class="itemTheme d-sm-none d-lg-none d-xl-block">
           <!-- Image of theme -->
           <img src="images/themes/car.png" alt="Car" class="borderPicture" />
           <!-- Box of text on image -->
-          <div class="textOnImageInThemeBox borderPicture">
-            <!-- Title of text -->
-            <div class="titleOftextOnImageInThemeBox">
-              How to Drive a Car Safely
-            </div>
-            <!-- About of text -->
-            <div class="aboutOftextOnImageInThemeBox">
-              Ah, the joy of the open road—it’s a good feeling. But if you’re
-              new to driving, you may feel a little nervous about getting behind
-              the wheel. Don’t worry. While it’s true that accidents can happen
-              to anybody, there are things you can do to drive safely and do
-              your best to avoid them.
+          <div class="textOnImageInThemeBox col-12">
+            <div class="textOnImageInThemeInsideBox mx-2 p-2 rounded">
+              <!-- Title of text -->
+              <div class="titleOftextOnImageInThemeBox">
+                How to Drive a Car Safely
+              </div>
+              <!-- About of text -->
+              <div class="aboutOftextOnImageInThemeBox">
+                Ah, the joy of the open road—it’s a good feeling. But if you’re
+                new to driving, you may feel a little nervous about getting
+                behind the wheel. Don’t worry. While it’s true that accidents
+                can happen to anybody, there are things you can do to drive
+                safely and do your best to avoid them.
+              </div>
             </div>
           </div>
         </article>
+        <!-- #endregion -->
 
-        <!-- Item theme -->
-        <article class="itemTheme">
+        <!-- #region Item theme -->
+        <article class="itemTheme d-sm-none d-lg-none d-xl-block">
           <!-- Image of theme -->
           <img src="images/themes/music.png" alt="Car" class="borderPicture" />
           <!-- Box of text on image -->
-          <div class="textOnImageInThemeBox borderPicture">
-            <!-- Title of text -->
-            <div class="titleOftextOnImageInThemeBox">
-              How to Make Dance Music
-            </div>
-            <!-- About of text -->
-            <div class="aboutOftextOnImageInThemeBox">
-              Download torrents from verified or trusted uploaders. If you're a
-              BitTorrent user looking for safety tips, use this method. Both of
-              the big-name BitTorrent indexers (The Pirate Bay and
-              KickAssTorrents) use symbols to highlight torrents uploaded by
-              verified users.
+          <div class="textOnImageInThemeBox col-12">
+            <div class="textOnImageInThemeInsideBox mx-2 p-2 rounded">
+              <!-- Title of text -->
+              <div class="titleOftextOnImageInThemeBox">
+                How to Make Dance Music
+              </div>
+              <!-- About of text -->
+              <div class="aboutOftextOnImageInThemeBox">
+                Download torrents from verified or trusted uploaders. If you're
+                a BitTorrent user looking for safety tips, use this method. Both
+                of the big-name BitTorrent indexers (The Pirate Bay and
+                KickAssTorrents) use symbols to highlight torrents uploaded by
+                verified users.
+              </div>
             </div>
           </div>
         </article>
+        <!-- #endregion -->
 
-        <!-- Item theme -->
-        <article class="itemTheme">
+        <!-- #region Item theme -->
+        <article class="itemTheme d-sm-none d-lg-flex d-xl-flex">
           <!-- Image of theme -->
           <img
             src="images/themes/tecnology.png"
@@ -253,25 +262,30 @@
             class="borderPicture"
           />
           <!-- Box of text on image -->
-          <div class="textOnImageInThemeBox borderPicture">
-            <!-- Title of text -->
-            <div class="titleOftextOnImageInThemeBox">
-              Why I Stopped Using Multiple Monitor
-            </div>
-            <!-- About of text -->
-            <div class="aboutOftextOnImageInThemeBox">
-              A Single Monitor Manifesto — Many developers believe multiple
-              monitors improve productivity. Studies have proven it, right?
-              Well, keep in mind, many of those studies are commissioned from
-              monitor manufacturers like
+          <div class="textOnImageInThemeBox col-12">
+            <div class="textOnImageInThemeInsideBox mx-2 p-2 rounded">
+              <!-- Title of text -->
+              <div class="titleOftextOnImageInThemeBox">
+                Why I Stopped Using Multiple Monitor
+              </div>
+              <!-- About of text -->
+              <div
+                class="aboutOftextOnImageInThemeBox d-sm-none d-lg-none d-xl-block"
+              >
+                A Single Monitor Manifesto — Many developers believe multiple
+                monitors improve productivity. Studies have proven it, right?
+                Well, keep in mind, many of those studies are commissioned from
+                monitor manufacturers like
+              </div>
             </div>
           </div>
         </article>
+        <!-- #endregion -->
       </section>
       <!-- #endregion -->
 
       <!-- #region Popular posts -->
-      <section class="container my-4">
+      <section class="d-flex flex-column gap-2">
         <!-- #region Title Of Popular Posts -->
         <article class="d-flex justify-content-between">
           <!-- #region Left side of Title Of Popular Posts -->
@@ -319,15 +333,15 @@
 
         <!-- #region Popular posts -->
         <article
-          class="d-flex p-1 my-3 rounded gap-2"
+          class="d-flex p-1 rounded justify-content-between"
           style="background-color: #f5f5f5"
         >
           <!-- #region item popular post -->
           <div
-            class="d-flex flex-column justify-content-between rounded p-1"
-            style="width: 350px; height: 390px; background-color: white"
+            class="d-flex flex-column rounded p-1 col-sm-12 col-lg-6 col-xl-3 gap-4"
+            style="background-color: white"
           >
-            <div>
+            <div class="d-flex flex-column gap-2">
               <!-- Image of popular post -->
               <img
                 src="images/popularPosts/posts/sport.png"
@@ -359,196 +373,6 @@
                 <!-- Image of profile -->
                 <img
                   src="images/popularPosts/profilePictures/james.png"
-                  alt="Pricture of James"
-                  class="rounded"
-                />
-
-                <!-- About person -->
-                <div class="mx-2">
-                  <!-- Person's name -->
-                  <div class="personNameOfPopularPost">James</div>
-
-                  <!-- Date -->
-                  <div class="dateOfPopularPost">August 18, 2022</div>
-                </div>
-              </div>
-
-              <!-- Save button -->
-              <div>
-                <img
-                  src="images/popularPosts/save.png"
-                  alt="Save button"
-                  style="max-width: 100%; max-height: 100%"
-                />
-              </div>
-            </div>
-            <!-- #endregion -->
-          </div>
-          <!-- #endregion -->
-
-          <!-- #region item popular post -->
-          <div
-            class="d-flex flex-column justify-content-between rounded p-1"
-            style="width: 350px; height: 390px; background-color: white"
-          >
-            <div>
-              <!-- Image of popular post -->
-              <img
-                src="images/popularPosts/posts/technology.png"
-                alt="Image of popular post"
-                class="rounded"
-                style="width: 100%"
-              />
-
-              <!-- Title of popular post -->
-              <div class="TitleOfPopularPost">
-                How to choose the right laptop for programming
-              </div>
-
-              <!-- About of popular post -->
-              <div class="AboutOfPopularPost">
-                Choosing the right laptop for programming can be a tough
-                process. It’s easy to get confused while researching the various
-                options. There are many different laptop models out there, each
-                with a different set of trade-offs
-              </div>
-            </div>
-
-            <!-- #region Profile info -->
-            <div
-              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
-              style="background-color: #f5f5f5"
-            >
-              <div class="d-flex">
-                <!-- Image of profile -->
-                <img
-                  src="images/popularPosts/profilePictures/louis.png"
-                  alt="Pricture of James"
-                  class="rounded"
-                />
-
-                <!-- About person -->
-                <div class="mx-2">
-                  <!-- Person's name -->
-                  <div class="personNameOfPopularPost">James</div>
-
-                  <!-- Date -->
-                  <div class="dateOfPopularPost">August 18, 2022</div>
-                </div>
-              </div>
-
-              <!-- Save button -->
-              <div>
-                <img
-                  src="images/popularPosts/save.png"
-                  alt="Save button"
-                  style="max-width: 100%; max-height: 100%"
-                />
-              </div>
-            </div>
-            <!-- #endregion -->
-          </div>
-          <!-- #endregion -->
-
-          <!-- #region item popular post -->
-          <div
-            class="d-flex flex-column justify-content-between rounded p-1"
-            style="width: 350px; height: 390px; background-color: white"
-          >
-            <div>
-              <!-- Image of popular post -->
-              <img
-                src="images/popularPosts/posts/car.png"
-                alt="Image of popular post"
-                class="rounded"
-                style="width: 100%"
-              />
-
-              <!-- Title of popular post -->
-              <div class="TitleOfPopularPost">
-                How we built the first real self-driving car
-              </div>
-
-              <!-- About of popular post -->
-              <div class="AboutOfPopularPost">
-                Electric self-driving cars will save millions of lives and
-                significantly accelerate the world’s transition to sustainable
-                energy, but only when
-              </div>
-            </div>
-
-            <!-- #region Profile info -->
-            <div
-              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
-              style="background-color: #f5f5f5"
-            >
-              <div class="d-flex">
-                <!-- Image of profile -->
-                <img
-                  src="images/popularPosts/profilePictures/mary.png"
-                  alt="Pricture of James"
-                  class="rounded"
-                />
-
-                <!-- About person -->
-                <div class="mx-2">
-                  <!-- Person's name -->
-                  <div class="personNameOfPopularPost">James</div>
-
-                  <!-- Date -->
-                  <div class="dateOfPopularPost">August 18, 2022</div>
-                </div>
-              </div>
-
-              <!-- Save button -->
-              <div>
-                <img
-                  src="images/popularPosts/save.png"
-                  alt="Save button"
-                  style="max-width: 100%; max-height: 100%"
-                />
-              </div>
-            </div>
-            <!-- #endregion -->
-          </div>
-          <!-- #endregion -->
-
-          <!-- #region item popular post -->
-          <div
-            class="d-flex flex-column justify-content-between rounded p-1"
-            style="width: 350px; height: 390px; background-color: white"
-          >
-            <div>
-              <!-- Image of popular post -->
-              <img
-                src="images/popularPosts/posts/food.png"
-                alt="Image of popular post"
-                class="rounded"
-                style="width: 100%"
-              />
-
-              <!-- Title of popular post -->
-              <div class="TitleOfPopularPost">
-                How to Persuade Your Parents to Buy Fast Food
-              </div>
-
-              <!-- About of popular post -->
-              <div class="AboutOfPopularPost">
-                Parents often don’t want to buy fast food. They may be worried
-                that it’s too expensive, unhealthy, or not worth the effort and
-                time.
-              </div>
-            </div>
-
-            <!-- #region Profile info -->
-            <div
-              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
-              style="background-color: #f5f5f5"
-            >
-              <div class="d-flex">
-                <!-- Image of profile -->
-                <img
-                  src="images/popularPosts/profilePictures/jon.png"
                   alt="Pricture of James"
                   class="rounded"
                 />
@@ -2869,16 +2693,12 @@
               </div>
             </div>
             <!-- #endregion -->
-
           </div>
           <!-- #endregion -->
-
         </article>
         <!-- #endregion -->
-
       </section>
       <!-- #endregion -->
-      
     </main>
     <!-- #endregion -->
 
@@ -2996,7 +2816,6 @@
 
               <!-- #region Items of Social networks -->
               <div class="col-3">
-
                 <div class="row d-flex gap-2">
                   <!-- #region Instagram -->
                   <div
@@ -3009,21 +2828,28 @@
                       );
                     "
                   >
-                  <div>
-                    <img src="images/footer/icons/instagram.png" />
-                  </div>
+                    <div>
+                      <img src="images/footer/icons/instagram.png" />
+                    </div>
                     <div class="textInstagramInFooterSN">Instagram</div>
                   </div>
                   <!-- #endregion -->
 
                   <!-- #region Twitter -->
-                  <div class="col-3 rounded d-flex align-items-center justify-content-center"
-                  style="background-image: linear-gradient(to left, #2CA5E0,#67C9F5);">
-                    <div><img src="images/footer/icons/twitter.png"></div>
+                  <div
+                    class="col-3 rounded d-flex align-items-center justify-content-center"
+                    style="
+                      background-image: linear-gradient(
+                        to left,
+                        #2ca5e0,
+                        #67c9f5
+                      );
+                    "
+                  >
+                    <div><img src="images/footer/icons/twitter.png" /></div>
                   </div>
                   <!-- #endregion -->
                 </div>
-
               </div>
               <!-- #endregion -->
             </div>
@@ -3148,6 +2974,7 @@
       </main>
     </footer>
     <!-- #endregion -->
+
     <!-- #region Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- #endregion -->

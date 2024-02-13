@@ -1,0 +1,191 @@
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/technology.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How to choose the right laptop for programming
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Choosing the right laptop for programming can be a tough
+                process. It’s easy to get confused while researching the various
+                options. There are many different laptop models out there, each
+                with a different set of trade-offs
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/louis.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/car.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How we built the first real self-driving car
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Electric self-driving cars will save millions of lives and
+                significantly accelerate the world’s transition to sustainable
+                energy, but only when
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/mary.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region item popular post -->
+          <div
+            class="d-flex flex-column justify-content-between rounded p-1"
+            style="width: 350px; height: 390px; background-color: white"
+          >
+            <div>
+              <!-- Image of popular post -->
+              <img
+                src="images/popularPosts/posts/food.png"
+                alt="Image of popular post"
+                class="rounded"
+                style="width: 100%"
+              />
+
+              <!-- Title of popular post -->
+              <div class="TitleOfPopularPost">
+                How to Persuade Your Parents to Buy Fast Food
+              </div>
+
+              <!-- About of popular post -->
+              <div class="AboutOfPopularPost">
+                Parents often don’t want to buy fast food. They may be worried
+                that it’s too expensive, unhealthy, or not worth the effort and
+                time.
+              </div>
+            </div>
+
+            <!-- #region Profile info -->
+            <div
+              class="d-flex px-3 py-2 rounded align-items-center justify-content-between"
+              style="background-color: #f5f5f5"
+            >
+              <div class="d-flex">
+                <!-- Image of profile -->
+                <img
+                  src="images/popularPosts/profilePictures/jon.png"
+                  alt="Pricture of James"
+                  class="rounded"
+                />
+
+                <!-- About person -->
+                <div class="mx-2">
+                  <!-- Person's name -->
+                  <div class="personNameOfPopularPost">James</div>
+
+                  <!-- Date -->
+                  <div class="dateOfPopularPost">August 18, 2022</div>
+                </div>
+              </div>
+
+              <!-- Save button -->
+              <div>
+                <img
+                  src="images/popularPosts/save.png"
+                  alt="Save button"
+                  style="max-width: 100%; max-height: 100%"
+                />
+              </div>
+            </div>
+            <!-- #endregion -->
+            
+          </div>
+          <!-- #endregion -->

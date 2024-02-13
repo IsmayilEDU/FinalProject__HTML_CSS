@@ -64,6 +64,7 @@
 /* #region Themes */
 .itemTheme {
   position: relative;
+  width: fit-content;
 }
 
 .itemTheme img {
@@ -71,21 +72,22 @@
 }
 
 .textOnImageInThemeBox {
-  height: 117px;
-  margin: 10px;
+  position: absolute;
+  bottom: 10px;
+  height: 25%;
+  overflow-y: hidden;
+}
+
+.textOnImageInThemeInsideBox{
   background-color: white;
   opacity: 0.7;
-  position: absolute;
-  bottom: 0px;
-  padding: 16px;
-  overflow: hidden;
+  height: 100%;
 }
 
 .titleOftextOnImageInThemeBox {
   font-weight: 400;
   font-size: 20px;
   line-height: 29.3px;
-  height: 50%;
 }
 
 .aboutOftextOnImageInThemeBox {
@@ -116,21 +118,21 @@
 }
 
 .TitleOfPopularPost {
-  margin: 16px 6px;
-  height: 20px;
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 18.75px;
   font-size: 16px;
+  height: 25%;
   overflow-y: hidden;
 }
 
 .AboutOfPopularPost {
-  margin: 0 6px;
-  height: 80px;
-  overflow-y: hidden;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  overflow-y: hidden;
+  height: 25%;
   letter-spacing: 0.25px;
 }
 
