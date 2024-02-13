@@ -64,38 +64,12 @@
 /* #region Themes */
 .itemTheme {
   position: relative;
-  width: fit-content;
 }
 
 .itemTheme img {
   width: 100%;
 }
 
-.textOnImageInThemeBox {
-  position: absolute;
-  bottom: 10px;
-  height: 25%;
-  overflow-y: hidden;
-}
-
-.textOnImageInThemeInsideBox{
-  background-color: white;
-  opacity: 0.7;
-  height: 100%;
-}
-
-.titleOftextOnImageInThemeBox {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 29.3px;
-}
-
-.aboutOftextOnImageInThemeBox {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-}
 /* #endregion */
 
 /* #region Popular posts */
@@ -225,7 +199,6 @@ td {
 /* #region Latest Videos */
 .mainLatestVideoBox {
   position: relative;
-  max-width: fit-content;
 }
 
 .playButtonBox {
@@ -252,8 +225,8 @@ td {
   position: absolute;
   background-color: white;
   opacity: 0.8;
-  bottom: 2%;
-  margin: 0 2%;
+  bottom: 0;
+  margin: 10px;
 }
 
 .titleOfAboutOfMainVideo {
@@ -275,29 +248,19 @@ td {
 
 .otherLatestVideoBox {
   background-color: white;
-  height: fit-content;
-  width: fit-content;
 }
 
-.otherLatestVideoBox img {
-  max-width: 35%;
-  max-height: 35%;
-}
 
 .textOfTitleOfLatestVideo {
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
-  height: 20px;
-  overflow-y: hidden;
 }
 
 .textOfAboutOfLatestVideo {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  height: 100px;
-  overflow-y: hidden;
 }
 /* #endregion */
 
