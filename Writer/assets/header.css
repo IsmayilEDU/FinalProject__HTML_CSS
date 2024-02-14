@@ -1,0 +1,33 @@
+
+/* Text of meganews div */
+.megaNews{
+    font-style: 22px;
+    font-weight: 700;
+    color: #FC4308;
+    line-height: 25.78px;
+}
+
+/* Select of li */
+.menuItem{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+/* Div of serach area */
+.searchDiv{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.borderPicture{
+    border-radius: 10px;
+}
+
+.saveDiv{
+    padding: 10px;
+    background-color: #F5F5F5;
+}

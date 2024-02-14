@@ -1,0 +1,44 @@
+
+
+.titleOfComment{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.aboutOfComment{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    height: 14px;
+    overflow-y: hidden;
+}
+
+.AboutMegaNews{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+
+
+.inputOfEmailInFooter{
+    background-color: inherit;
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.CategoryItem{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.textInstagramInFooterSN{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
