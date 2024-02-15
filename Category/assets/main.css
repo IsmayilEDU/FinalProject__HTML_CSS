@@ -69,3 +69,10 @@
   margin: auto 0;
   color: #3E3232BF;
 }
+
+.categoryItem{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15.23px;
+  margin: auto 0;
+}

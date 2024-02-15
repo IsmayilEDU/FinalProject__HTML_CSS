@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/footer.css" />
     <!-- #endregion -->
 
-    <title>Writer</title>
+    <title>Category</title>
   </head>
   <body>
     <!-- #region Header -->
@@ -143,127 +143,47 @@
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Writer</li>
+            <li class="breadcrumb-item active" aria-current="page">Category</li>
           </ol>
         </nav>
       </section>
       <!-- #endregion -->
 
-      <!-- #region Profile -->
-      <section
-        class="d-flex flex-column gap-2 p-2 rounded"
-        style="background-color: #f5f5f5"
-      >
-        <!-- #region Background image -->
-        <article>
-          <img
-            src="images/main/profile/ppBackground.png"
-            class="rounded"
-            style="width: 100%"
-          />
+      <!-- #region Categories -->
+      <section class="d-flex justify-content-between p-2 align-items-center">
+
+        <!-- #region Category items -->
+        <article class="d-flex gap-3">
+          <p class="categoryItem" style="color: #F81539;">New</p>
+          <p class="categoryItem">Trendy</p>
+          <p class="categoryItem">Popular</p>
+          <p class="categoryItem">Top</p>
         </article>
         <!-- #endregion -->
 
-        <!-- #region Information profile -->
-        <article class="d-flex align-items-center">
-          <!-- #region Profile Picture -->
-          <div class="col-sm-2 col-lg-1 col-xl-1 p-1">
-            <img
-              src="images/main/profile/ppWriter.png"
-              class="rounded"
-              style="width: 100%"
-            />
+
+        <!-- #region Icons -->
+        <article class=" gap-3 d-sm-none d-lg-none d-xl-flex">
+          <div class="px-3 py-2">
+            <img src="images/main/categories/icon1.png" />
           </div>
-          <!-- #endregion -->
-          <!-- #region Fullname, Profile Specifications  -->
-          <div class="col-sm-8 col-lg-9 col-xl-9 p-1">
-            <div class="d-flex flex-sm-column flex-lg-column flex-xl-row p-2">
-              <!-- #region Fullname-->
-              <div
-                class="d-flex justify-content-start col-sm-12 col-lg-12 col-xl-3"
-              >
-                <div class="fullnameOfWriter">Louis Hoebregts</div>
-              </div>
-              <!-- #endregion -->
-
-              <!-- #region Profile Specifications -->
-              <div
-                class="d-flex justify-content-sm-start justify-content-lg-start justify-content-xl-center col-sm-12 col-lg-12 col-xl-9"
-              >
-                <div class="d-flex align-items-center gap-3">
-                  <!-- #region Rate -->
-                  <div
-                    class="d-flex gap-2 align-items-center justify-content-center"
-                  >
-                    <img
-                      src="images/main/profile/rateIcon.png"
-                      style="max-width: 100%"
-                    />
-                    <p class="specificationOfWriter">Rate : 4.2</p>
-                  </div>
-                  <!-- #endregion -->
-
-                  <!-- #region Followers -->
-
-                  <div
-                    class="d-flex gap-1 align-items-center justify-content-center"
-                  >
-                    <img
-                      src="images/main/profile/personIcon.png"
-                      style="max-width: 100%"
-                    />
-                    <p class="specificationOfWriter">Follower : 1.2 k</p>
-                  </div>
-                  <!-- #endregion -->
-
-                  <!-- #region Post -->
-                  <div
-                    class="d-flex gap-2 align-items-center justify-content-center"
-                  >
-                    <img
-                      src="images/main/profile/postIcon.png"
-                      style="max-width: 100%"
-                    />
-                    <p class="specificationOfWriter">Post : 29</p>
-                  </div>
-                  <!-- #endregion -->
-                </div>
-                <!-- #endregion -->
-              </div>
-            </div>
+          <div class="px-3 py-2 rounded" style="background-color: #f5f5f5;">
+            <img src="images/main/categories/icon1.png" />
           </div>
-          <!-- #endregion -->
-
-          <!-- #region Follow button  -->
-
-          <div class="col-sm-2 col-lg-2 col-xl-2 p-1">
-            <div
-              class="d-flex gap-2 rounded p-2 align-items-center justify-content-center"
-              style="background-color: #f81539bf"
-            >
-              <img
-                src="images/main/profile/plusIcon.png"
-                style="max-width: 100%"
-              />
-              <p class="buttonTextSave my-auto">Follow</p>
-            </div>
-          </div>
-          <!-- #endregion -->
         </article>
-        <!-- #endregion -->
       </section>
       <!-- #endregion -->
 
-      <!-- #region Latest Posts -->
+      <!-- #region Category : Sport -->
       <section class="container my-4">
-        <!-- #region Title Of Latest Posts -->
+        <!-- #region Title Of Category : Sport -->
         <article class="d-flex align-items-center">
           <img src="icons/RedRectangle.png" alt="Red Rectangle" />
-          <p class="TextOftitleOfPopularPostsLeft my-auto mx-2">New Posts</p>
+          <p class="TextOftitleOfPopularPostsLeft my-auto mx-2">Category : Sport</p>
         </article>
         <!-- #endregion -->
 
-        <!-- #region New posts -->
+        <!-- #region Category : Sport items -->
         <article class="d-flex my-3 rounded flex-wrap" style="background-color: #f5f5f5">
 
           <!-- #region item popular post -->
