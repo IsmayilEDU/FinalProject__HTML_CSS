@@ -1,0 +1,19 @@
+.megaNews{
+    font-style: 22px;
+    font-weight: 700;
+    color: #FC4308;
+    line-height: 25.78px;
+}
+
+.menuItem{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.titleOfCategory{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin: auto 0;
+}
