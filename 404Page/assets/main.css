@@ -1,0 +1,15 @@
+.text404{
+    font-weight: 500;
+    font-size: 192px;
+    line-height: 225px;
+    margin: auto 0;
+    color: #FC4308;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.subText404{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin: auto 0;
+}
